@@ -1,0 +1,17 @@
+{
+	"sProcessing": "Caricamento...",
+	"sLengthMenu": "Visualizza _MENU_ righe",
+	"sZeroRecords": "Nessuna riga trovata.",
+	"sInfo": "Numero di righe: _TOTAL_",
+	"sInfoEmpty": "Nessun risultato",
+	"sInfoFiltered": "",
+	"sInfoPostFix": "",
+	"sSearch": "Cerca",
+	"sUrl": "",
+	"oPaginate": {
+		"sFirst":    "Inizio",
+		"sPrevious": "Indietro",
+		"sNext":     "Avanti",
+		"sLast":     "Fine"
+	}
+}
