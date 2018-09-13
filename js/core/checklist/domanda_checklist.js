@@ -31,7 +31,7 @@ function caricaTabella() {
         "sAjaxSource": "ajax.php?ajaxOP=get_cform_domanda_list&id_utente=" + id_utente + "&id_ruolo=" + id_ruolo,
         "aoColumns":
                 [
-                    {"mData": "id_progressivo", "bSearchable": true, "bSortable": true, "bVisible": true},
+                    {"mData": "id_arrivo", "bSearchable": true, "bSortable": true, "bVisible": true},
                     {"mData": "id_istanza", "bSearchable": true, "bSortable": true, "bVisible": true},
                     {"mData": "denominazione_ente", "bSearchable": true, "bSortable": true, "bVisible": true},
                     {"mData": "identificativo_fiscale_ente", "bSearchable": true, "bSortable": true, "bVisible": true},
@@ -42,7 +42,8 @@ function caricaTabella() {
                     {"mData": "data_caricamento", "bSearchable": true, "bSortable": true, "bVisible": false},
                     {"mData": "percorso_checklist", "bSearchable": true, "bSortable": true, "bVisible": true},
                     {"mData": "id_stato_checklist", "bSearchable": true, "bSortable": true, "bVisible": true},
-                    {"mData": "id_esito", "bSearchable": true, "bSortable": true, "bVisible": true}
+                    {"mData": "id_esito", "bSearchable": true, "bSortable": true, "bVisible": true},
+                    {"mData": "id_progressivo", "bSearchable": false, "bSortable": false, "bVisible": false}
                 ],
         "aoColumnDefs": [
             {

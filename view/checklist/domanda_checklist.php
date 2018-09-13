@@ -29,7 +29,8 @@
                     <th width="0">data_caricamento</th>									
                     <th width="10%">Scarica CheckList</th>    					
                     <th width="10%">Stato CheckList</th>  
-                    <th width="10%">Esito</th>  
+                    <th width="10%">Esito</th> 
+                    <th width="0">ID</th>
                 </tr>
             </thead>
             <tbody>              

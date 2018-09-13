@@ -17,7 +17,7 @@ if (isset($_REQUEST["op"]))
         case "xls_domande":
             $Excel->Table = "v_cform_domanda_export";
             $Excel->IndexColumn = "id_progressivo";
-            $Excel->SelectColumns = array('id_progressivo','id_istanza','denominazione_ente',
+            $Excel->SelectColumns = array('id_arrivo','id_istanza','denominazione_ente',
                 'identificativo_fiscale_ente','data_invio','ora_invio',
                 'numero_corsi','nome','cognome',
                 'id_stato_checklist','data_caricamento','esito','note');
@@ -25,7 +25,7 @@ if (isset($_REQUEST["op"]))
                                 'CF ENTE','DATA INVIO ISTANZA','ORA INVIO ISTANZA',
                                 'NUM. CORSI ISTANZA','NOME ISTRUTTORE', 'COGNOME ISTRUTTORE',
                                 'STATO CHECKLIST','DATA ULTIMO SALVATAGGIO', 'ESITO VALUTAZIONE','NOTE');
-            $Excel->Order = "id_progressivo";
+            $Excel->Order = "id_arrivo";
             $Excel->NomeFile = "Lista-Domande-" . date('d-m-Y');
             $Excel->TitoloFoglio = "ListaDomande";
             if (isset($_GET['id_ruolo']) && ($_GET['id_ruolo']) != 'AB_000')

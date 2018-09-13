@@ -22,7 +22,7 @@ switch ($ajaxOP)
         $dt->Table = "v_cform_domanda";
         $dt->IndexColumn = "id_progressivo";
         $dt->Columns = array(
-            "id_progressivo",
+            "id_arrivo",
             "id_istanza",
             "denominazione_ente",
             "identificativo_fiscale_ente",
@@ -33,7 +33,8 @@ switch ($ajaxOP)
             "data_caricamento",
             "percorso_checklist",
             "id_stato_checklist",
-            "id_esito"
+            "id_esito",
+            "id_progressivo"
         );
 
         if (isset($_GET['id_ruolo']) && ($_GET['id_ruolo']) != 'AB_000')

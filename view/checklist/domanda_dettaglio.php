@@ -17,7 +17,8 @@
                         <div class="mws-form-col-2-8">
                             <label class="mws-form-label">ID prog.</label>
                             <div class="mws-form-item small">
-                                <input type="text" id="id_progressivo" name="id_progressivo" readonly />
+                                <input type="text" id="id_arrivo" name="id_arrivo" readonly />
+                                <input type="hidden" id="id_progressivo" name="id_progressivo"  />
                             </div>
                         </div> 	
                         <div class="mws-form-col-2-8">
