@@ -41,7 +41,7 @@
  <input id="id_utente" name="id_utente" type="hidden" value="<?=$_SESSION["id_utente"]; ?>"/>
 <? if ($utente->abilitato("AB_001"))
 {
-?>
+    ?>
     <input id="id_ruolo" name="id_ruolo" type="hidden" value="AB_001"/>
 <?
 }

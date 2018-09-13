@@ -6,7 +6,7 @@ include_once( "add-on/PHPExcel-1.8/PHPExcel.php" );
 
 ini_set('memory_limit', '1600M');
 ini_set('max_execution_time', 6000);
-$sql ="";
+
 $db = new MySQL();
 $sql = "SELECT * FROM v_cform_domanda WHERE id_stato_checklist=1";
 $db->Query($sql);
